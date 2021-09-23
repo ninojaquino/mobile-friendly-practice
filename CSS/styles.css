@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.title {
+    position: absolute;
+    /* top: 5vw; */
+    top: calc(20px + 6vw);
+    left: 40vw;
+    color: white;
+    font-size: calc(25px + 1vw);
+}
+
+main {
+    margin-top: 2em;
+    text-align: justify;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.heading {
+    color: rgb(3, 148, 148);
+    font-size: 2em;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.content {
+    padding: 7px;
+    font-weight: 700;
+
+}
+.content-two {
+    padding: 7px;
+    text-align: right;
+    font-weight: 700;
+}
+
+footer {
+    background-color: rgb(1, 1, 68);
+    height: 100px;
+    margin-top: 5em;
+    padding: 4em;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+/* teacher CSS */
+
+/* *{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    background-color: black;
+}
+
+.wrapper{
+    max-width: 1750px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 100vh;
+    position: relative;
+}
+
+header{
+    position: relative;
+} */
+
+/* top gradient */
+/* #Layer_1{
+    width: 100%;
+}
+
+.title{
+    color: white;
+    margin: auto;
+    font-size: calc(25px + 1vw);
+    position: absolute;
+    top: calc(20px + 6vw);
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+main{
+    padding: 50px 10%;
+}
+
+.heading {
+    color: rgba(9,109,121,1);
+    font-size: 1.6em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.content:nth-of-type(even) > *{
+    text-align: right;
+}
+
+footer{
+    background-color: rgba(0,29,36,1);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    color: white;
+} */
