@@ -1,56 +1,79 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+/* day two daily challenge media queries */
+
+body {
+  background-color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    background-color: rgba(4, 146, 212, 0.76);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    background-color: rgb(10, 233, 214);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    background-color: rgb(238, 144, 238);
+  }
+}
+
+/* day two daily challenge media queries */
 
 .title {
-    position: absolute;
-    /* top: 5vw; */
-    top: calc(20px + 6vw);
-    left: 40vw;
-    color: white;
-    font-size: calc(25px + 1vw);
+  position: absolute;
+  /* top: 5vw; */
+  top: calc(20px + 6vw);
+  left: 40vw;
+  color: white;
+  font-size: calc(25px + 1vw);
 }
 
 main {
-    margin-top: 2em;
-    text-align: justify;
-    margin-left: 10em;
-    margin-right: 10em;
+  margin-top: 2em;
+  text-align: justify;
+  margin-left: 10em;
+  margin-right: 10em;
 }
 
 .heading {
-    color: rgb(3, 148, 148);
-    font-size: 2em;
-    letter-spacing: 5px;
-    padding-bottom: 20px;
-    font-weight: bold;
+  color: rgb(3, 148, 148);
+  font-size: 2em;
+  letter-spacing: 5px;
+  padding-bottom: 20px;
+  font-weight: bold;
 }
-
 
 .content {
-    padding: 7px;
-    font-weight: 700;
-
+  padding: 7px;
+  font-weight: 700;
 }
 .content-two {
-    padding: 7px;
-    text-align: right;
-    font-weight: 700;
+  padding: 7px;
+  text-align: right;
+  font-weight: 700;
 }
 
 footer {
-    background-color: rgb(1, 1, 68);
-    height: 100px;
-    margin-top: 5em;
-    padding: 4em;
+  background-color: rgb(1, 1, 68);
+  height: 100px;
+  margin-top: 5em;
+  padding: 4em;
 }
 
 footer p {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 /* teacher CSS */
